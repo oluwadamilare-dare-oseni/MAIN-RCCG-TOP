@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&family=Raleway:wght@700&display=swap');
+
+#container{
+    /* background-color: rgb(255, 254, 254); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    height: 50px; 
+    position: absolute;
+    width: 100%; 
+    top: 0px; 
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+}
+ #login a, #gallery a{
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+ #login a:hover, #gallery a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color:rgb(0,0,139);
+}
+
+img{
+    max-width:150px;
+    filter: drop-shadow(8px 5px 3px black);
+    padding: 28px;
+}
+
+#hero{
+    height: 700px;
+    background-image: url("bg1.jpg");
+    background-position:center;
+    background-size: cover;
+}
+
+#hero-content{
+    width: 600px;
+    background-color: rgba(51, 47, 47,0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    
+
+}
+
+#hero-content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "raleway", sans-serif;
+    margin: 0;
+}
+
+#hero-content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    /* margin-bottom: 50px; */
+    margin-top: 20px;
+}
+ 
+#hero-content a{
+    text-decoration: none;
+    background-color: rgb(235, 232, 21);
+    padding: 10px 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgb
+    (68, 67, 67);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#hero-content a:hover{
+    background-color:  rgb(241, 226, 129);
+}
+
+#headquaters-address{
+    position: absolute;
+    bottom: 10px;
+    padding: 0px 90px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@-webkit-keyframes scroll{
+    0%{
+        -webkit-transform: translate(0,0);
+    }
+    100%{
+        -webkit-transform: translate(-100%,0);
+    }
+}
+.marquee{
+    white-space: nowrap;
+    overflow: hidden;   
+}
+.marquee span{
+    display: inline-block;
+    -webkit-animation:scroll 30s infinite linear;
+   
+    
+}

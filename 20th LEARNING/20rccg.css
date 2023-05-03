@@ -1,0 +1,43 @@
+.formplace{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(rgb(220, 250, 250), rgba(2,0,36,0.01)), url(BG2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex; 
+    align-items: center;
+    justify-content:center ;  
+    
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: absolute;
+    
+   
+    
+}
+input, textarea{
+    width: 100%;
+    max-height: auto;
+    padding: 0.5rem;
+    outline: 0;
+    border: 1prx solid antiquewhite;
+    color: aliceblue;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: relative;
+    left:0;
+    top:0;
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    cursor: text;
+}

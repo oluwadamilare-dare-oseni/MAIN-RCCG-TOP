@@ -1,0 +1,86 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.formplace{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(220, 250, 250), rgba(2,0,36,0.01)), url(BG2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+    
+   
+    
+}
+input, textarea{
+    width: 100%;
+    max-height: auto;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid antiquewhite;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    padding: 10px;
+    color:rgb(0,0,139);
+    cursor: text;
+    transition: 0.2s;
+}
+
+button{
+    padding: 10px 0;
+    background: transparent;
+    outline: 0;
+    border: 1px solid antiquewhite;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Rubik Mono One", sans-serif;
+}
+
+
+button a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+button a:hover{
+    color:rgb(0,0,139);
+    text-decoration: none;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}

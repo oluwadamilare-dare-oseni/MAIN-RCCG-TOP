@@ -1,0 +1,51 @@
+
+  
+  /* Main Style Stars from here  */
+  .flag {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+    
+  }
+  
+  .turkey {
+    background: #e30a17;
+  }
+  
+  /* Turkey Moon */
+  .turkey::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    aspect-ratio: 1;
+    border-radius: 1in;
+    left: 73px;
+    top: 60px;
+    box-shadow: -13px 0 0 10px white;
+  }
+  
+  /* Turkey Star */
+  .turkey::after {
+    content: "";
+    position: absolute;
+    left: 48%;
+    top: calc(50% - 25px);
+  
+    height: 1px;
+    aspect-ratio: 1;
+    background: white;
+    transform: rotate(-15deg);
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }

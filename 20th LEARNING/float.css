@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "roboto", sans-serif;
+    font-size: 1.5rem;
+    /* min-height: 200vh;   */
+}
+
+section{
+    height: 100vh;
+}
+
+#one{
+    background-image: url(BG2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#two{
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#three{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.blue{
+    background-color: blue;
+    border-bottom: 2px solid white;
+}
+.red{
+    background-color: red;
+    border-bottom: 2px solid white;
+}
+.green{
+    background-color: green;
+    border-bottom: 2px solid white;
+}
+
+header, footer{
+    color: white;
+    text-align: center;
+    height: 4rem;
+    font-size: 3rem;
+}
+header{
+    position: sticky;
+    top: 0;
+
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 3rem;
+    height: 4rem;
+    border-top: 2px solid white;
+
+    
+}
+.social{
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+    
+}
+
+h2,p{
+  color: white;
+  font-weight:lighter;
+  position: sticky;
+  top: 5px;
+ 
+}
+p{
+    position:fixed;
+    top: 60px;
+    right:0;
+    z-index: 1;
+    
+}

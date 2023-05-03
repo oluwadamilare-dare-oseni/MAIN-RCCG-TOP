@@ -1,0 +1,48 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.one{
+    color: blue;
+    background-color: red;
+}
+
+.two{
+    color: blue;
+    background-color: yellow;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.three{
+    color: blue;
+    background-color: black;
+}
+
+.four{
+    color: blue;
+    background-color:brown;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.five{
+    color: blue;
+    background-color: green;
+}
+
+.six{
+    color: blue;
+    background-color: orchid;
+}
